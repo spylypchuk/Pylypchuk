@@ -124,3 +124,10 @@ Session ID: 295e65425e867d2b53e6a0ec637cdabd
 2018-09-06 12:06:09   INFO [libs.UIActions] : Input value to the fields
 2018-09-06 12:06:10   INFO [libs.UIActions] : Input value to the fields
 2018-09-06 12:06:10   INFO [libs.UIActions] : Element was clicked
+2018-10-06 11:57:17   INFO [loginTest.ValidTest] : Chrome will be started
+2018-10-06 11:57:21   INFO [loginTest.ValidTest] : Chrome is started
+2018-10-06 11:57:22   INFO [pages.LoginPage] : Page login was opened
+2018-10-06 11:57:22   INFO [libs.UIActions] : Input value to the fields
+2018-10-06 11:57:22   INFO [libs.UIActions] : Input value to the fields
+2018-10-06 11:57:23   INFO [libs.UIActions] : Element was clicked
+2018-10-06 11:57:23   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\loginTest\ValidTestvalidLoginTest[0].jpg

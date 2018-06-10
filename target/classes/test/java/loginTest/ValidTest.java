@@ -6,24 +6,17 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.LoginPage;
+import parentTest.ParentTest;
 
 import java.io.File;
 
-public class ValidTest
+public class ValidTest extends ParentTest
 {
-    WebDriver driver;
-    LoginPage loginPage;
-
-
-    @Before
-    public void setUp()
+    public ValidTest(String browser)
     {
-//      File fileFF = new File( "./drivers/chromedriver.exe");
-        File fileFF = new File("./ChromeDriver/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", fileFF.getAbsolutePath());
-        driver = new ChromeDriver();
-        loginPage = new LoginPage(driver);
+        super(browser);
     }
+
 
     @Test
     public void validLoginTest()
@@ -33,10 +26,6 @@ public class ValidTest
         loginPage.insertToPasswordField("909090");
         loginPage.clickOnLoginButton();
     }
-
-    @After
-    public  void tearDown()
-    {
-        driver.quit();
-    }
 }
+
+

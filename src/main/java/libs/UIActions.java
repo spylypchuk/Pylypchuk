@@ -83,4 +83,18 @@ public class UIActions
 
     }
 
+    public boolean isElementPresent(WebElement element)
+    {
+        try
+        {
+            return element.isDisplayed() && element.isEnabled();
+        }
+        catch (Exception ex)
+        {
+            log.error("The element is not present");
+            return false;
+        }
+    }
+
+
 }
