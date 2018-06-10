@@ -87,7 +87,7 @@
 //
 //    @Before
 //    public void setUp() {
-//        //pathToScreenShot = "..\\ClassWork\\target\\screenshot\\" + this.getClass().getPackage().getName() + "\\" + this.getClass().getSimpleName()
+//        //pathToScreenShot = "..\\Pylypchuk\\target\\screenshot\\" + this.getClass().getPackage().getName() + "\\" + this.getClass().getSimpleName()
 //        // + this.testName.getMethodName() + ".jpg";
 //
 //        if ("chrome".equals(browser)) {
