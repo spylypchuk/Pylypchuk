@@ -5,14 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testspy.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testspy.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/libs/UIActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/UIActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/parentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libs/UIActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/UIActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/libs/UIActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/libs/UIActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/loginTest/ValidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/loginTest/ValidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTest/ValidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loginTest/ValidTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +24,8 @@
       <file leaf-file-name="ParentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="166" column="90" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -51,8 +45,8 @@
       <file leaf-file-name="UIActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/libs/UIActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="93" column="49" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
+            <state relative-caret-position="261">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +57,8 @@
       <file leaf-file-name="ValidTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="21" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
@@ -77,8 +71,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -93,8 +87,8 @@
       <file leaf-file-name="ParentPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="277">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
@@ -130,10 +124,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ParentTest/ParentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parentTest/parentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/libs/UIActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/libs/UIActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java" />
       </list>
     </option>
@@ -149,7 +143,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="854" />
     <option name="y" value="16" />
     <option name="width" value="1090" />
@@ -383,38 +377,46 @@
       <option name="presentableId" value="Default" />
       <updated>1527929426156</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new methods to ParentTest&#10;Add methods from ParentTest to ValidTest">
+      <created>1528623802020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528623802020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValidTest_validLoginTest - 2018.06.06 at 23h 18m 22s.xml">
+    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 12h 54m 58s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 16m 23s.xml">
+    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 12h 56m 06s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 31m 45s.xml">
+    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 12h 59m 05s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 33m 01s.xml">
+    <history-entry file="ValidTest - 2018.06.10 at 13h 00m 53s.xml">
+      <configuration name="ValidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidTest - 2018.06.10 at 13h 05m 03s.xml">
+      <configuration name="ValidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidTest - 2018.06.10 at 13h 07m 13s.xml">
+      <configuration name="ValidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 13h 09m 49s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 38m 20s.xml">
+    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 13h 12m 34s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 41m 20s.xml">
-      <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
+    <history-entry file="ValidTest - 2018.06.10 at 13h 15m 44s.xml">
+      <configuration name="ValidTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 10h 41m 30s.xml">
-      <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 11h 24m 59s.xml">
-      <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.09 at 12h 06m 11s.xml">
-      <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 11h 57m 24s.xml">
-      <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
+    <history-entry file="ValidTest - 2018.06.10 at 13h 20m 08s.xml">
+      <configuration name="ValidTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +432,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.2657952" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.2657952" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.38562092" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.26906317" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -452,9 +454,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new methods to ParentTest&#10;Add methods from ParentTest to ValidTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new methods to ParentTest&#10;Add methods from ParentTest to ValidTest" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -622,34 +636,10 @@
     <entry file="file://$PROJECT_DIR$/target/screenshot/loginTest/ValidTestvalidLoginTest[0].jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
@@ -660,10 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/libs/UIActions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="93" column="49" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
+        <state relative-caret-position="425">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -672,8 +662,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="166" column="90" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="90" />
+        <state relative-caret-position="102">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/libs/UIActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -682,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />

@@ -83,4 +83,14 @@ public class UIActions
 
     }
 
+    public boolean isElementPresent(WebElement element)
+    {
+
+            return element.isDisplayed() && element.isEnabled();
+
+
+
+    }
+
+
 }

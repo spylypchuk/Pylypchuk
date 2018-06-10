@@ -14,7 +14,7 @@ public class ParentPage {
     UIActions uiactions;
 
     @FindBy(tagName = "h1")
-    WebElement zagolovok;
+   protected  WebElement zagolovok;
 
     public ParentPage(WebDriver driver) {
         this.driver = driver;

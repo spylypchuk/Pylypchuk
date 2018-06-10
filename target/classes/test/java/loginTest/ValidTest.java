@@ -1,14 +1,8 @@
 package loginTest;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import pages.LoginPage;
 import parentTest.ParentTest;
 
-import java.io.File;
 
 public class ValidTest extends ParentTest
 {
@@ -25,6 +19,12 @@ public class ValidTest extends ParentTest
         loginPage.insertToLoginField("Student");
         loginPage.insertToPasswordField("909090");
         loginPage.clickOnLoginButton();
+        //System.out.println(homePage.isAvatarPresent());
+        checkAcceptanceCriteria
+               ( "Avatar is not present", homePage.isAvatarPresent(),  true);
+
+        checkAcceptanceCriteria
+                ( "Title is not Expected", homePage.getTitle(), "Учет запчастей");
     }
 }
 
