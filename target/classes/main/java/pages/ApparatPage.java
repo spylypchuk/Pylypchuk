@@ -19,5 +19,8 @@ public class ApparatPage extends ParentPage
         return uiactions.isElementPresent(plusIcon);
     }
 
-    public void clickOnPlusIcon(){uiactions.clickToElement(plusIcon);}
+    public void clickOnPlusIcon()
+    {
+        uiactions.clickToElement(plusIcon);
+    }
 }

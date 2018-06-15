@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.nio.file.WatchEvent;
 
+
 public class SparePage extends ParentPage
 {
     //Dictionaries
@@ -19,13 +20,13 @@ public class SparePage extends ParentPage
     //aparat fields
 
     @FindBy(id = "apparat_apparatNumber")
-    WatchEvent apparatNumber;
+    WebElement apparatNumber;
 
     @FindBy(id = "apparat_apparatComment")
-    WatchEvent apparatComment;
+    WebElement apparatComment;
 
     @FindBy(name = "add")
-    WatchEvent addButton;
+    WebElement addButton;
 
     //
 
@@ -56,11 +57,30 @@ public class SparePage extends ParentPage
         super(driver);
     }
 
-    public void clickOnDictionatiesTab(){uiactions.clickToElement(Dictionaries);}
+    public void clickOnDictionatiesTab()
+    {
+        uiactions.clickToElement(Dictionaries);
+    }
 
-    public void clickOnApparatTab(){uiactions.clickToElement(apparat);}
+    public void clickOnApparatTab()
+    {
+        uiactions.clickToElement(apparat);
+    }
 
+    public void insertToApparatNumberField(String value)
+    {
+        uiactions.insertToField(apparatNumber, value);
+    }
 
+    public void insertToApparatComment(String value)
+    {
+        uiactions.insertToField(apparatComment, value);
+    }
+
+    public void clickOnAddbutton()
+    {
+        uiactions.clickToElement(addButton);
+    }
 
 
 }

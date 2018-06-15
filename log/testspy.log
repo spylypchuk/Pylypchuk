@@ -233,3 +233,41 @@ Session ID: 295e65425e867d2b53e6a0ec637cdabd
 2018-16-06 00:45:38   INFO [libs.UIActions] : Element was clicked
 2018-16-06 00:47:51   INFO [apparatTest.AddApparatTest] : Chrome will be started
 2018-16-06 00:47:54   INFO [apparatTest.AddApparatTest] : Chrome is started
+2018-16-06 01:11:57   INFO [apparatTest.AddApparatTest] : Chrome will be started
+2018-16-06 01:12:01   INFO [apparatTest.AddApparatTest] : Chrome is started
+2018-16-06 01:31:37   INFO [apparatTest.AddApparatTest] : Chrome will be started
+2018-16-06 01:31:41   INFO [apparatTest.AddApparatTest] : Chrome is started
+2018-16-06 01:31:42   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 01:31:42   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:31:42   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:31:43   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:31:43   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:31:43   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:31:44   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:31:44   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:31:44   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:31:44   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:35:49   INFO [apparatTest.AddApparatTest] : Chrome will be started
+2018-16-06 01:35:53   INFO [apparatTest.AddApparatTest] : Chrome is started
+2018-16-06 01:35:53   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 01:35:54   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:35:54   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:35:54   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:35:54   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:35:55   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:35:55   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:35:55   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:35:55   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:35:56   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:42:11   INFO [apparatTest.AddApparatTest] : Chrome will be started
+2018-16-06 01:42:15   INFO [apparatTest.AddApparatTest] : Chrome is started
+2018-16-06 01:42:17   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 01:42:17   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:42:17   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:42:19   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:42:19   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:42:20   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:42:20   INFO [libs.UIActions] : Element was clicked
+2018-16-06 01:42:20   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:42:20   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 01:42:21   INFO [libs.UIActions] : Element was clicked
