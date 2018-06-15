@@ -29,7 +29,8 @@ public class UIActions
      */
     public void clickToElement(WebElement element)
     {
-        try {
+        try
+        {
             webDriverWait.until(ExpectedConditions.visibilityOf(element));
             element.click();
             log.info("Element was clicked");
@@ -85,10 +86,14 @@ public class UIActions
 
     public boolean isElementPresent(WebElement element)
     {
-
+        try
+        {
             return element.isDisplayed() && element.isEnabled();
-
-
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
 
     }
 

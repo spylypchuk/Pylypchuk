@@ -12,6 +12,7 @@ public class HomePage extends ParentPage
     @FindBy(xpath = ".//a[@class='logo']")
     WebElement logo;
 
+
     public HomePage(WebDriver driver)
     {
         super(driver);

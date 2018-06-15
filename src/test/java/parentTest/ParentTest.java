@@ -20,10 +20,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-//import pages.ApparatPage;
+import pages.ApparatPage;
 //import pages.EditApparatPage;
-import pages.HomePage;
-import pages.LoginPage;
+import pages.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -40,11 +40,12 @@ public class ParentTest {
     WebDriver driver;
     public LoginPage loginPage;
     public HomePage homePage;
-   // public SdelkiListPage sdelkiListPage;
+    public MaintenanceListPage maintenanceListPage;
+    // public SdelkiListPage sdelkiListPage;
    // public EditSdelkiPage editSdelkiPage;
-   // public SparePage sparePage;
+   public SparePage sparePage;
    // public EditNewSparePage editNewSparePage;
-//    public ApparatPage apparatPage;
+    public ApparatPage apparatPage;
 //    public EditApparatPage editApparatPage;
     //public TypeSdelkiPage typeSdelkiPage;
     //public EditTypeSdelkiPage editTypeSdelkiPage;
@@ -131,11 +132,12 @@ public class ParentTest {
 
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
+        maintenanceListPage = new MaintenanceListPage(driver);
 //        sdelkiListPage = new SdelkiListPage(driver);
 //        editSdelkiPage = new EditSdelkiPage(driver);
-//        sparePage = new SparePage(driver);
+          sparePage = new SparePage(driver);
 //        editNewSparePage = new EditNewSparePage(driver);
-//        apparatPage = new ApparatPage(driver);
+        apparatPage = new ApparatPage(driver);
 //        editApparatPage = new EditApparatPage(driver);
 //        typeSdelkiPage = new TypeSdelkiPage(driver);
 //        editTypeSdelkiPage = new EditTypeSdelkiPage(driver);
