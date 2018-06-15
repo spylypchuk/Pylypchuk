@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f5d0-38e2-42a8-a5f0-c497ecce7d6d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/testspy.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testspy.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ApparatPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ApparatPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SparePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SparePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apparatTest/AddApparatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apparatTest/AddApparatTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+            <state relative-caret-position="462">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1344#1345#0" expanded="true" />
@@ -90,8 +86,8 @@
       <file leaf-file-name="AddApparatTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/apparatTest/AddApparatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
@@ -116,8 +112,8 @@
       <file leaf-file-name="ValidTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="82" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="28" selection-end-column="82" />
+            <state relative-caret-position="510">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
@@ -171,9 +167,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ApparatPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SparePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/apparatTest/AddApparatTest.java" />
       </list>
     </option>
@@ -467,9 +463,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValidTest - 2018.06.10 at 13h 20m 08s.xml">
-      <configuration name="ValidTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ValidTest_validLoginTest - 2018.06.10 at 13h 29m 35s.xml">
       <configuration name="ValidTest.validLoginTest" configurationId="JUnit" />
     </history-entry>
@@ -497,6 +490,9 @@
     <history-entry file="AddApparatTest - 2018.06.16 at 01h 35m 57s.xml">
       <configuration name="AddApparatTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddApparatTest - 2018.06.16 at 01h 42m 22s.xml">
+      <configuration name="AddApparatTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -508,11 +504,11 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="1" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.38562092" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.26906317" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4989339" visible="true" weight="0.38562092" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" weight="0.26906317" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4989339" weight="0.38562092" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4989339" visible="true" weight="0.26906317" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20522387" />
@@ -784,22 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SparePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -840,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/loginTest/ValidTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="82" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="28" selection-end-column="82" />
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />
@@ -850,10 +830,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apparatTest/AddApparatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />

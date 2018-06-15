@@ -14,18 +14,8 @@ public class AddApparatTest extends ParentTest
     @Test
     public void addNewApparatTest()
     {
-//
-        loginPage.openPageLogin();
-        loginPage.insertToLoginField("Student");
-        loginPage.insertToPasswordField("909090");
-        loginPage.clickOnLoginButton();
-        //System.out.println(homePage.isAvatarPresent());
-        checkAcceptanceCriteria
-                ( "Avatar is not present", homePage.isAvatarPresent(),  true);
 
-        checkAcceptanceCriteria
-                ( "Title is not Expected", homePage.getTitle(), "Учет запчастей");
-        //
+        loginPage.LoginUser("Student", "909090");
         sparePage.clickOnDictionatiesTab();
         sparePage.clickOnApparatTab();
         apparatPage.isPlusIconPresent();
