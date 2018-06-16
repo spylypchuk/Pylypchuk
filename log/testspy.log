@@ -284,3 +284,37 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\spy\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
 Session ID: 1b98c743d19e21f706289fd4e15c9688
 *** Element info: {Using=name, value=_username}
+2018-16-06 11:05:30   INFO [loginTest.invalidLoginWithParameters] : Chrome will be started
+2018-16-06 11:05:34   INFO [loginTest.invalidLoginWithParameters] : Chrome is started
+2018-16-06 11:05:34   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 11:05:35   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:05:35   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:05:35   INFO [libs.UIActions] : Element was clicked
+2018-16-06 11:05:35   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\loginTest\invalidLoginWithParametersinvalidLogin[0].jpg
+2018-16-06 11:05:35   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\loginTest\invalidLoginWithParametersinvalidLogin[0].jpg
+2018-16-06 11:05:36   INFO [loginTest.invalidLoginWithParameters] : Chrome will be started
+2018-16-06 11:05:38   INFO [loginTest.invalidLoginWithParameters] : Chrome is started
+2018-16-06 11:05:39   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 11:05:39   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:05:39   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:05:39   INFO [libs.UIActions] : Element was clicked
+2018-16-06 11:05:40   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\loginTest\invalidLoginWithParametersinvalidLogin[1].jpg
+2018-16-06 11:05:40   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\loginTest\invalidLoginWithParametersinvalidLogin[1].jpg
+2018-16-06 11:06:26   INFO [loginTest.invalidLoginWithParameters] : Chrome will be started
+2018-16-06 11:06:30   INFO [loginTest.invalidLoginWithParameters] : Chrome is started
+2018-16-06 11:06:30   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 11:06:31   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:06:31   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:06:31   INFO [libs.UIActions] : Element was clicked
+2018-16-06 11:06:32   INFO [loginTest.invalidLoginWithParameters] : Chrome will be started
+2018-16-06 11:06:34   INFO [loginTest.invalidLoginWithParameters] : Chrome is started
+2018-16-06 11:06:34   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 11:06:34   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:06:34   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:06:35   INFO [libs.UIActions] : Element was clicked
+2018-16-06 11:56:35   INFO [loginTest.ValidLoginWithExcelParameters] : Chrome will be started
+2018-16-06 11:56:39   INFO [loginTest.ValidLoginWithExcelParameters] : Chrome is started
+2018-16-06 11:56:40   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 11:56:40   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:56:40   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 11:56:40   INFO [libs.UIActions] : Element was clicked

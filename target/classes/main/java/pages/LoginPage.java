@@ -74,15 +74,12 @@ public class LoginPage extends ParentPage
       uiactions.clickToElement(SubmitButtonXpath);
    }
 
-   public void LoginUser(String login, String password)
+
+   public void loginUserToTheSystem(String login, String pass)
    {
+      openPageLogin();
       insertToLoginField(login);
-      insertToPasswordField(password);
+      insertToPasswordField(pass);
       clickOnLoginButton();
    }
-
-
-
-
-
 }

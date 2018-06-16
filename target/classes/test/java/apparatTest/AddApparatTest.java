@@ -15,7 +15,7 @@ public class AddApparatTest extends ParentTest
     public void addNewApparatTest()
     {
 
-        loginPage.LoginUser("Student", "909090");
+        loginPage.loginUserToTheSystem("Stydent", "909090");
         sparePage.clickOnDictionatiesTab();
         sparePage.clickOnApparatTab();
         apparatPage.isPlusIconPresent();
