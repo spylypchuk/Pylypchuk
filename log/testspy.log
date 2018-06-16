@@ -318,3 +318,33 @@ Session ID: 1b98c743d19e21f706289fd4e15c9688
 2018-16-06 11:56:40   INFO [libs.UIActions] : Input value to the fields
 2018-16-06 11:56:40   INFO [libs.UIActions] : Input value to the fields
 2018-16-06 11:56:40   INFO [libs.UIActions] : Element was clicked
+2018-16-06 12:35:20   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome will be started
+2018-16-06 12:35:23   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome is started
+2018-16-06 12:35:24   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 12:35:24   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:24   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:25   INFO [libs.UIActions] : Element was clicked
+2018-16-06 12:35:25   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome will be started
+2018-16-06 12:35:27   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome is started
+2018-16-06 12:35:28   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 12:35:28   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:28   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:28   INFO [libs.UIActions] : Element was clicked
+2018-16-06 12:35:29   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome will be started
+2018-16-06 12:35:31   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome is started
+2018-16-06 12:35:32   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 12:35:32   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:32   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:32   INFO [libs.UIActions] : Element was clicked
+2018-16-06 12:35:33   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome will be started
+2018-16-06 12:35:35   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome is started
+2018-16-06 12:35:36   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 12:35:36   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:36   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:36   INFO [libs.UIActions] : Element was clicked
+2018-16-06 12:35:37   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome will be started
+2018-16-06 12:35:39   INFO [loginTest.InvalidLoginWithParemeterFromExcel] : Chrome is started
+2018-16-06 12:35:39   INFO [pages.LoginPage] : Page login was opened
+2018-16-06 12:35:40   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:40   INFO [libs.UIActions] : Input value to the fields
+2018-16-06 12:35:40   INFO [libs.UIActions] : Element was clicked
