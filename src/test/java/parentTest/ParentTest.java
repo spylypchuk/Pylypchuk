@@ -46,7 +46,7 @@ public class ParentTest {
    public SparePage sparePage;
    // public EditNewSparePage editNewSparePage;
     public ApparatPage apparatPage;
-//    public EditApparatPage editApparatPage;
+    public EditApparatPage editApparatPage;
     //public TypeSdelkiPage typeSdelkiPage;
     //public EditTypeSdelkiPage editTypeSdelkiPage;
     private Utils utils = new Utils();

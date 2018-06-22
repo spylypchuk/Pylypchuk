@@ -12,11 +12,11 @@ import java.util.Collection;
 
 @RunWith(value = Parameterized.class)
 
-public class invalidLoginWithParameters extends ParentTest
+public class InvalidLoginWithParameters extends ParentTest
 {
     String login, pass;
 
-    public invalidLoginWithParameters(String browser, String login, String pass)
+    public InvalidLoginWithParameters(String browser, String login, String pass)
     {
         super(browser);
         this.login = login;
