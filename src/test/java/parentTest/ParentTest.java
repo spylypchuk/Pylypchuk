@@ -43,9 +43,11 @@ public class ParentTest {
     public MaintenanceListPage maintenanceListPage;
     public EmployeesPage employeesPage;
     public EditEmployeePage editEmployeePage;
+    public SpareTypePage spareTypePage;
+    public EditSpareTypePage editSpareTypePage;
     // public SdelkiListPage sdelkiListPage;
    // public EditSdelkiPage editSdelkiPage;
-   public SparePage sparePage;
+   public CommonPanelPage commonPanelPage;
    // public EditNewSparePage editNewSparePage;
     public ApparatPage apparatPage;
     public EditApparatPage editApparatPage;
@@ -137,9 +139,12 @@ public class ParentTest {
         maintenanceListPage = new MaintenanceListPage(driver);
         employeesPage = new EmployeesPage(driver);
         editEmployeePage = new EditEmployeePage(driver);
+        commonPanelPage = new CommonPanelPage(driver);
+        spareTypePage = new SpareTypePage(driver);
+        editSpareTypePage =  new EditSpareTypePage(driver);
 //        sdelkiListPage = new SdelkiListPage(driver);
 //        editSdelkiPage = new EditSdelkiPage(driver);
-          sparePage = new SparePage(driver);
+          commonPanelPage = new CommonPanelPage(driver);
 //        editNewSparePage = new EditNewSparePage(driver);
         apparatPage = new ApparatPage(driver);
         editApparatPage = new EditApparatPage(driver);

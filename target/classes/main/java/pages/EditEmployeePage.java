@@ -46,6 +46,11 @@ public class EditEmployeePage extends ParentPage
         uiactions.insertToField(workerPhone, value);
     }
 
+    public boolean isAddButtonPresent()
+    {
+        return uiactions.isElementPresent(addButton);
+    }
+
     public void clickOnAddButton()
     {
         uiactions.clickToElement(addButton);

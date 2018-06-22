@@ -14,14 +14,15 @@ public class AddNewEmployeeTest extends ParentTest
     public void addNewEmployeeTest()
     {
         loginPage.loginUserToTheSystem("Student","909090");
-        sparePage.clickOnDictionatiesTab();
-        sparePage.clickOnEmployeesTab();
+        commonPanelPage.clickOnDictionatiesTab();
+        commonPanelPage.clickOnEmployeesTab();
         employeesPage.isPlusIconPresent();
         employeesPage.clickOnPlusIcon();
         editEmployeePage.insertToWorkerSurnameField("Test");
         editEmployeePage.insertToWorkerNameField("New_Employee");
         editEmployeePage.insertToWorkerMiddleName("Mikhaylovich");
         editEmployeePage.insetToWorkerPhone("+380936666666");
+        editEmployeePage.isAddButtonPresent();
         editEmployeePage.clickOnAddButton();
 
     }

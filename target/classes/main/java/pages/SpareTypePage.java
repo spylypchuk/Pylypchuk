@@ -4,16 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class EmployeesPage extends ParentPage
+public class SpareTypePage extends ParentPage
 {
     @FindBy(xpath = ".//i[@class='fa fa-plus']")
     WebElement plusIcon;
 
-    public EmployeesPage(WebDriver driver)
-
+    public SpareTypePage(WebDriver driver)
     {
         super(driver);
     }
+
     public boolean isPlusIconPresent()
 
     {
@@ -25,5 +25,6 @@ public class EmployeesPage extends ParentPage
     {
         uiactions.clickToElement(plusIcon);
     }
+
 
 }

@@ -10,15 +10,18 @@ public class EmployeesPage extends ParentPage
     WebElement plusIcon;
 
     public EmployeesPage(WebDriver driver)
+
     {
         super(driver);
     }
     public boolean isPlusIconPresent()
+
     {
         return uiactions.isElementPresent(plusIcon);
     }
 
     public void clickOnPlusIcon()
+
     {
         uiactions.clickToElement(plusIcon);
     }

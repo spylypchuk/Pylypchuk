@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 
 
-public class SparePage extends ParentPage
+public class CommonPanelPage extends ParentPage
 {
     //Dictionaries
 
@@ -16,17 +16,11 @@ public class SparePage extends ParentPage
     @FindBy(id = "apparat")
     WebElement apparat;
 
-
-    //
-
     @FindBy(id = "workers")
     WebElement workers;
 
     @FindBy(id = "spareType")
     WebElement spareType;
-
-    @FindBy(id = "spares")
-    WebElement spares;
 
     @FindBy(id = "prov_cus")
     WebElement storonuSdeloc;
@@ -41,23 +35,32 @@ public class SparePage extends ParentPage
 
 
 
-    public SparePage(WebDriver driver)
+    public CommonPanelPage(WebDriver driver)
     {
         super(driver);
     }
 
     public void clickOnDictionatiesTab()
+
     {
         uiactions.clickToElement(Dictionaries);
     }
 
     public void clickOnApparatTab()
+
     {
         uiactions.clickToElement(apparat);
     }
+
     public void clickOnEmployeesTab()
+
     {
         uiactions.clickToElement(workers);
+    }
+
+    public void clickOnSpareTypeTab()
+    {
+        uiactions.clickToElement(spareType);
     }
 
 

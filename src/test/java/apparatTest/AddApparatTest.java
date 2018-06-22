@@ -1,7 +1,6 @@
 package apparatTest;
 
 import org.junit.Test;
-import pages.EditApparatPage;
 import parentTest.ParentTest;
 
 public class AddApparatTest extends ParentTest
@@ -17,8 +16,8 @@ public class AddApparatTest extends ParentTest
     {
 
         loginPage.loginUserToTheSystem("Stydent", "909090");
-        sparePage.clickOnDictionatiesTab();
-        sparePage.clickOnApparatTab();
+        commonPanelPage.clickOnDictionatiesTab();
+        commonPanelPage.clickOnApparatTab();
         apparatPage.isPlusIconPresent();
         apparatPage.clickOnPlusIcon();
         editApparatPage.insertToApparatNumberField("13");
