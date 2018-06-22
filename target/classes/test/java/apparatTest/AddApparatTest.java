@@ -1,6 +1,7 @@
 package apparatTest;
 
 import org.junit.Test;
+import pages.EditApparatPage;
 import parentTest.ParentTest;
 
 public class AddApparatTest extends ParentTest
@@ -20,9 +21,9 @@ public class AddApparatTest extends ParentTest
         sparePage.clickOnApparatTab();
         apparatPage.isPlusIconPresent();
         apparatPage.clickOnPlusIcon();
-        sparePage.insertToApparatNumberField("13");
-        sparePage.insertToApparatComment("SpyTest Apparat");
-        sparePage.clickOnAddbutton();
+        editApparatPage.insertToApparatNumberField("13");
+        editApparatPage.insertToApparatComment("SpyTest Apparat");
+        editApparatPage.clickOnAddbutton();
 
     }
 

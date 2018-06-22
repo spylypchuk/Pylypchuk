@@ -55,5 +55,10 @@ public class SparePage extends ParentPage
     {
         uiactions.clickToElement(apparat);
     }
+    public void clickOnEmployeesTab()
+    {
+        uiactions.clickToElement(workers);
+    }
+
 
 }

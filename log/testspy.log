@@ -447,3 +447,18 @@ Session ID: 1b98c743d19e21f706289fd4e15c9688
 2018-17-06 12:25:55   INFO [libs.UIActions] : Input value to the fields
 2018-17-06 12:25:56   INFO [libs.UIActions] : Input value to the fields
 2018-17-06 12:25:56   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:26   INFO [employeesTest.AddNewEmployeeTest] : Chrome will be started
+2018-23-06 01:17:30   INFO [employeesTest.AddNewEmployeeTest] : Chrome is started
+2018-23-06 01:17:31   INFO [pages.LoginPage] : Page login was opened
+2018-23-06 01:17:31   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:31   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:32   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:32   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:33   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:33   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:33   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:33   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:34   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:34   INFO [libs.UIActions] : Input value to the fields
+2018-23-06 01:17:34   INFO [libs.UIActions] : Element was clicked
+2018-23-06 01:17:35   INFO [libs.Utils] : ScreenShot: ..\Pylypchuk\target\screenshot\employeesTest\AddNewEmployeeTestaddNewEmployeeTest[0].jpg
