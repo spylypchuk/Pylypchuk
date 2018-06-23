@@ -45,9 +45,11 @@ public class ParentTest {
     public EditEmployeePage editEmployeePage;
     public SpareTypePage spareTypePage;
     public EditSpareTypePage editSpareTypePage;
-    // public SdelkiListPage sdelkiListPage;
-   // public EditSdelkiPage editSdelkiPage;
-   public CommonPanelPage commonPanelPage;
+    public SparesPage sparesPage;
+    public EditSparePage editSparePage;
+    public SdelkiListPage sdelkiListPage;
+    public EditSdelkiPage editSdelkiPage;
+    public CommonPanelPage commonPanelPage;
    // public EditNewSparePage editNewSparePage;
     public ApparatPage apparatPage;
     public EditApparatPage editApparatPage;
@@ -63,7 +65,8 @@ public class ParentTest {
     @Rule
     public TestName testName = new TestName();
 
-    public ParentTest(String browser) {
+    public ParentTest(String browser)
+    {
         this.browser = browser;
         log = Logger.getLogger(getClass());
     }
@@ -142,8 +145,10 @@ public class ParentTest {
         commonPanelPage = new CommonPanelPage(driver);
         spareTypePage = new SpareTypePage(driver);
         editSpareTypePage =  new EditSpareTypePage(driver);
-//        sdelkiListPage = new SdelkiListPage(driver);
-//        editSdelkiPage = new EditSdelkiPage(driver);
+        sparesPage = new SparesPage(driver);
+        editSparePage = new EditSparePage(driver);
+        sdelkiListPage = new SdelkiListPage(driver);
+        editSdelkiPage = new EditSdelkiPage(driver);
           commonPanelPage = new CommonPanelPage(driver);
 //        editNewSparePage = new EditNewSparePage(driver);
         apparatPage = new ApparatPage(driver);

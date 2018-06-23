@@ -68,13 +68,13 @@ public class UIActions
         }
     }
 
-    public void selectElementFromDropDown(By element, String textForSelect)
+    public void selectElementFromDropDown(WebElement element, String value)
     {
         try
         {
-            Select dropDown = new Select(driver.findElement((element)));
-            dropDown.selectByVisibleText(textForSelect);
-            log.info(textForSelect + "was selected  in DropDown");
+            Select dropDown = new Select(driver.findElement(By.id("element")));
+            dropDown.selectByVisibleText(value);
+            log.info(value + "was selected  in DropDown");
         }
         catch (Exception e)
         {

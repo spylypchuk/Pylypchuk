@@ -13,21 +13,25 @@ public class EditSpareTypePage extends ParentPage
     WebElement addButton;
 
     public EditSpareTypePage(WebDriver driver)
+
     {
         super(driver);
     }
 
     public void insertToSpareTypeNameField(String value)
+
     {
         uiactions.insertToField(spareTypeName, value);
     }
 
     public boolean isAddButtonPresent()
+
     {
         return uiactions.isElementPresent(addButton);
     }
 
     public void clickOnAddButton()
+
     {
         uiactions.clickToElement(addButton);
     }

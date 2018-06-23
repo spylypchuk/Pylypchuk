@@ -22,6 +22,9 @@ public class CommonPanelPage extends ParentPage
     @FindBy(id = "spareType")
     WebElement spareType;
 
+    @FindBy(id = "spares")
+    WebElement spares;
+
     @FindBy(id = "prov_cus")
     WebElement storonuSdeloc;
 
@@ -62,6 +65,18 @@ public class CommonPanelPage extends ParentPage
     {
         uiactions.clickToElement(spareType);
     }
+
+    public void clickOnSparesTab()
+    {
+        uiactions.clickToElement(spares);
+    }
+
+    public void clickOnSdelkiTab()
+    {
+        uiactions.clickToElement(storonuSdeloc);
+    }
+
+
 
 
 }
