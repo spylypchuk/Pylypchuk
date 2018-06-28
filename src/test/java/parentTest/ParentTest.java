@@ -50,7 +50,6 @@ public class ParentTest {
     public SdelkiListPage sdelkiListPage;
     public EditSdelkiPage editSdelkiPage;
     public CommonPanelPage commonPanelPage;
-   // public EditNewSparePage editNewSparePage;
     public ApparatPage apparatPage;
     public EditApparatPage editApparatPage;
     //public TypeSdelkiPage typeSdelkiPage;
@@ -78,14 +77,14 @@ public class ParentTest {
                        // {"fireFox"}
                        //    ,
                 {"chrome"}
-                      ,
+                  ,
                  //  { "iedriver" }
 //                ,
 //                    { "opera" }
 //                ,
 //                {"phantomJs"}
 //                ,
-//               {"remote"}
+ //             {"remote"}
         });
     }
 
@@ -149,13 +148,11 @@ public class ParentTest {
         editSparePage = new EditSparePage(driver);
         sdelkiListPage = new SdelkiListPage(driver);
         editSdelkiPage = new EditSdelkiPage(driver);
-          commonPanelPage = new CommonPanelPage(driver);
-//        editNewSparePage = new EditNewSparePage(driver);
+        commonPanelPage = new CommonPanelPage(driver);
         apparatPage = new ApparatPage(driver);
         editApparatPage = new EditApparatPage(driver);
 //        typeSdelkiPage = new TypeSdelkiPage(driver);
 //        editTypeSdelkiPage = new EditTypeSdelkiPage(driver);
-//
         excelDriver = new ExcelDriver();
 
 

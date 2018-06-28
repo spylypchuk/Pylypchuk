@@ -49,7 +49,7 @@ public class EditSdelkiPage extends ParentPage
 
     public void checkPrivatePersonCheckBox()
     {
-        uiactions.tickCheckBox(privatePersonCheckBox,false);
+        uiactions.tickCheckBox(privatePersonCheckBox,true);
     }
 
     public boolean isAddButtonPresent()

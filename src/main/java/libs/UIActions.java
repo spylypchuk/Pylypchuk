@@ -68,20 +68,22 @@ public class UIActions
         }
     }
 
-    public void selectElementFromDropDown(WebElement element, String value)
-    {
-        try
-        {
-            Select dropDown = new Select(driver.findElement(By.id("element")));
-            dropDown.selectByVisibleText(value);
-            log.info(value + "was selected  in DropDown");
-        }
-        catch (Exception e)
-        {
-            log.error("Can't work with element");
-            Assert.fail("Can't work with element");
-        }
+    public void selectDropDownElemByValue(WebElement webElement, String value){
+        webElement.findElement(By.xpath(".//option[contains(text(),'" + value + "')]")).click();
+    }
 
+
+    public boolean selectItemInDropDownByVisibleText(WebElement elementDD, String textForSelect){
+        try {
+            Select optionsFromDD = new Select(elementDD);
+            optionsFromDD.selectByVisibleText(textForSelect);
+            log.info(textForSelect + " was selected in DD");
+            return true;
+        } catch (Exception e) {
+            log.error("Can not work with element");
+            Assert.fail("Can not work with element");
+            return false;
+        }
     }
 
     public boolean isElementPresent(WebElement element)
@@ -96,6 +98,28 @@ public class UIActions
         }
 
     }
+
+    public String getTextFromElement(WebElement element){
+        try {
+            return element.getText();
+        } catch (Exception e) {
+            log.error("Something went wrong");
+            throw new AssertionError("getTextFromElement: Ooops!");
+        }
+    }
+
+
+    public String getCurrentUrl(){
+        try {
+            return driver.getCurrentUrl();
+        } catch (Exception e) {
+            log.error("Can't get current url");
+            throw new AssertionError("getCurrentUrl: Ooops!");
+        }
+    }
+
+
+
 
 
 
